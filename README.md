@@ -11,9 +11,8 @@ Usage
 
 zipping files and/or directories
 --
-* Zippy's Zip takes the name of a .zip file to create.
-* The add_files method takes a list of files and/or directories.
-i.e.:
+Zippy's Zip takes the name of a .zip file to create.
+The add_files method takes a list of files and/or directories.
 
     from zippy.zippy import Zip
     Zip('name_of_zipfile.zip').add_files(['your_directory'])
@@ -21,10 +20,10 @@ i.e.:
   
 unzipping files
 --
-* Zippy's Unzip takes the name of a .zip file to open.
-* The "contents" property returns a list of the .zip file's contents.
-* The to_path method takes the name of a path to extract the .zip file to.  It returns
-  True on success, False on failure.
+Zippy's Unzip takes the name of a .zip file to open.
+The "contents" property returns a list of the .zip file's contents.
+The to_path method takes the name of a path to extract the .zip file to.  It returns
+True on success, False on failure.
 i.e.:
 
     from zippy.zippy import Unzip

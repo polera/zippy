@@ -8,8 +8,6 @@ class Zip(ZipFile):
     self.noisy = noisy
 
   def add_files(self, files=[]):
-    if self.noisy:
-      print files
     for filename in files:
       if self.noisy:
         print "Adding file %s" % filename

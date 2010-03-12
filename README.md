@@ -15,9 +15,9 @@ zipping files and/or directories
 * The add_files method takes a list of files and/or directories.
 i.e.:
 
-  `from zippy.zippy import Zip`
-  `Zip('name_of_zipfile.zip').add_files(['your_directory'])`
-  `Zip('name_of_other_zipfile.zip').add_files(['file3.txt']`
+    from zippy.zippy import Zip
+    Zip('name_of_zipfile.zip').add_files(['your_directory'])
+    Zip('name_of_other_zipfile.zip').add_files(['file3.txt'])
   
 unzipping files
 --
@@ -27,5 +27,5 @@ unzipping files
   True on success, False on failure.
 i.e.:
 
-  `from zippy.zippy import Unzip`
-  `Unzip('name_of_zipfile.zip').to_path('/home/you/your_extracted_files')`
+    from zippy.zippy import Unzip
+    Unzip('name_of_zipfile.zip').to_path('/home/you/your_extracted_files')
